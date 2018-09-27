@@ -1,15 +1,21 @@
 h1 {
-padding: 5px
-
+  padding: 15px
 }
-#soccer {
-  float: right;
-
-
-}
-
 li {
   display: inline;
-  background-color: red;
-  padding: 5px;
+  font-size: 20px;
+  margin: 70px;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: maroon;
+}
+li a {
+    display: inline;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+  }
