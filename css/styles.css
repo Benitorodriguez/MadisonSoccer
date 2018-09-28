@@ -19,3 +19,8 @@ li a {
     text-align: left;
     text-decoration: none;
   }
+
+  }
+.nav button:hover {
+    background-color: Navy;
+}
