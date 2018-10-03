@@ -20,10 +20,19 @@ button {
 }
 
 a:link {
-  color: white;
+  color: yellow;
   text-decoration: none;
 }
 
 a:visited {
-  color: white;
+  color: yellow;
+}
+
+.w3-button {
+  color: yellow;
+  
+}
+
+.w3-button:hover {
+  background-color: Navy;
 }
