@@ -37,3 +37,23 @@ a:visited {
 .w3-button:hover {
   background-color: Navy;
 }
+
+.achievements {
+  box-sizing: border-box;
+  width: 300px;
+  height: 100px;
+  padding:30px;
+  border: 10px navy blue;
+}
+h2 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 50px;
+}
+h4 {
+  font-size: 50px;
+}
+ul {
+  font-size: 20px;
+}
