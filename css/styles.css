@@ -38,10 +38,13 @@ a:visited {
   background-color: Navy;
 }
 
-div.a {
+div{
   text-align: center;
-
 }
+.achievements {
+  border: 5px solid navy;
+}
+
 
 h2 {
   font-size: 50px;
@@ -63,4 +66,7 @@ dl {
 }
 p {
   font-size: 20px;
+}
+.seniors {
+border: 5px solid navy;
 }
