@@ -43,7 +43,9 @@ div {
 }
 
 .achievements {
-  border: 5px solid navy;
+  padding: 10px;
+  border: 2px solid navy;
+  margin: 0px ;
 }
 
 h2 {
