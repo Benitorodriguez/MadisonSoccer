@@ -46,6 +46,7 @@ div {
   padding: 10px;
   border: 2px solid navy;
   margin: 0px ;
+  color: maroon;
 }
 
 h2 {
@@ -74,4 +75,19 @@ p {
 
 .seniors {
   border: 5px solid navy;
+}
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  background-color: maroon;
+  text-align: center;
+  color: yellow;
+}
+.goals {
+  color: maroon;
+}
+.history {
+  color: maroon;
 }
