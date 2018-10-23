@@ -1,5 +1,6 @@
 h1 {
-  padding: 15px
+  padding: 15px;
+
 }
 
 button {
@@ -20,16 +21,16 @@ button {
 }
 
 a:link {
-  color: yellow;
+  color: gold;
   text-decoration: none;
 }
 
 a:visited {
-  color: yellow;
+  color: gold;
 }
 
 .w3-button {
-  color: yellow;
+  color: gold;
   width: 50%;
   height: 70px;
 }
@@ -46,7 +47,7 @@ div {
   padding: 10px;
   border: 2px solid navy;
   margin: 0px ;
-  color: maroon;
+  color: gold;
 }
 
 h2 {
@@ -83,11 +84,19 @@ body {
 h1 {
   background-color: maroon;
   text-align: center;
-  color: yellow;
+  color: gold;
 }
 .goals {
-  color: maroon;
+  color: gold;
 }
 .history {
-  color: maroon;
+  color: gold;
+}
+#grad1 {
+  background-image: linear-gradient(navy, maroon);
+  width: 100%;
+  height: 100%;
+}
+.logo {
+width: 10%;
 }
