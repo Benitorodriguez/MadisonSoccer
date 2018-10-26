@@ -1,6 +1,5 @@
 h1 {
   padding: 15px;
-
 }
 
 button {
@@ -44,23 +43,14 @@ div {
 }
 
 .achievements {
-  padding: 10px;
-  border: 2px solid navy;
-  margin: 0px ;
   color: gold;
 }
 
-h2 {
-  font-size: 50px;
+h2, h3, h4 {
+  font-size: 70px;
 }
 
-h3 {
-  font-size: 50px;
-}
 
-h4 {
-  font-size: 50px;
-}
 
 ul {
   font-size: 20px;
@@ -77,38 +67,56 @@ p {
 .seniors {
   border: 5px solid navy;
 }
+
 body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 h1 {
   background-color: maroon;
   text-align: center;
   color: gold;
+  font-size: 60px;
+  font-style: italic;
 }
-.goals {
+
+div.goals {
   color: gold;
+  width: 320px;
+  padding: 10px;
+  border: 10px solid blue;
+  margin: auto;
+  align-items: center;
 }
+
 .history {
   color: gold;
 }
+
 #grad1 {
   background-image: linear-gradient(navy, maroon);
   width: 100%;
   height: 100%;
 }
+
 .logo {
-width: 10%;
+  width: 10%;
 }
+
 h2 {
   color: gold;
 }
+
 h3 {
   color: gold;
 }
+
 h4 {
   color: gold;
 }
+
 ul {
   color: gold;
+  font-size: 40px;
 }
