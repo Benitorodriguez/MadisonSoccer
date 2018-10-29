@@ -50,8 +50,6 @@ h2, h3, h4 {
   font-size: 70px;
 }
 
-
-
 ul {
   font-size: 20px;
 }
@@ -104,19 +102,23 @@ div.goals {
   width: 10%;
 }
 
-h2 {
+h2, h3, h4 {
   color: gold;
-}
-
-h3 {
-  color: gold;
-}
-
-h4 {
-  color: gold;
+  font-style: italic;
 }
 
 ul {
   color: gold;
   font-size: 40px;
+  list-style-type: none;
+}
+
+div.seniors {
+  color: gold;
+  width: 210px;
+  padding: 5px;
+  border: 5px solid blue;
+  margin: auto;
+  align-items: center;
+  border-spacing: inherit;
 }
