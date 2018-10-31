@@ -62,10 +62,6 @@ p {
   font-size: 20px;
 }
 
-.seniors {
-  border: 5px solid navy;
-}
-
 body {
   background-repeat: no-repeat;
   background-size: cover;
@@ -111,14 +107,4 @@ ul {
   color: gold;
   font-size: 40px;
   list-style-type: none;
-}
-
-div.seniors {
-  color: gold;
-  width: 210px;
-  padding: 5px;
-  border: 5px solid blue;
-  margin: auto;
-  align-items: center;
-  border-spacing: inherit;
 }
