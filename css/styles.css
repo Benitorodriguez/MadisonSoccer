@@ -42,8 +42,14 @@ div {
   text-align: center;
 }
 
-.achievements {
+div.achievements {
   color: gold;
+  width: 320px;
+  padding: 10px;
+  border: 10px solid blue;
+  margin: auto;
+  align-items: center;
+  float: middle;
 }
 
 h2, h3, h4 {
@@ -73,19 +79,17 @@ h1 {
   color: gold;
   font-size: 60px;
   font-style: italic;
+  width: 99%;
 }
 
-div.goals {
+div.history {
   color: gold;
-  width: 320px;
-  padding: 10px;
-  border: 10px solid blue;
-  margin: auto;
+  border: 10px solid navy;
+  width: 95%;
+  height: 60%;
+  padding: 30px;
+  margin: 20px;
   align-items: center;
-}
-
-.history {
-  color: gold;
 }
 
 #grad1 {
@@ -95,7 +99,7 @@ div.goals {
 }
 
 .logo {
-  width: 10%;
+  width: 7%;
 }
 
 h2, h3, h4 {
@@ -107,4 +111,24 @@ ul {
   color: gold;
   font-size: 40px;
   list-style-type: none;
+}
+
+p {
+  color: gold;
+}
+
+p.news {
+  color: gold;
+  font-size: 40px;
+}
+
+div.about {
+  border: 10px solid navy;
+  color: gold;
+  width: 85%;
+  height: 60%;
+  padding: 10px;
+  margin: 20px;
+  align-items: center;
+  float: left;
 }
