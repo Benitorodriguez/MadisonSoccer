@@ -1,4 +1,10 @@
 h1 {
+  background-color: maroon;
+  text-align: center;
+  color: gold;
+  font-size: 60px;
+  font-style: italic;
+  width: 100%;
   padding: 15px;
 }
 
@@ -7,12 +13,12 @@ button {
   color: white;
   border: none;
   font-size: 25px;
-  padding: 20px;
+  padding: 18px;
   margin: none;
   display: inline;
   text-align: center;
   float: left;
-  width: 205.6px;
+  width: 100px;
 }
 
 .tab button:hover {
@@ -30,7 +36,7 @@ a:visited {
 
 .w3-button {
   color: gold;
-  width: 50%;
+  width: 50.007%;
   height: 70px;
 }
 
@@ -73,19 +79,12 @@ body {
   background-size: cover;
 }
 
-h1 {
-  background-color: maroon;
-  text-align: center;
-  color: gold;
-  font-size: 60px;
-  font-style: italic;
-  width: 99%;
-}
+
 
 div.history {
   color: gold;
-  border: 10px solid navy;
-  width: 95%;
+  border: 10px solid gold;
+  width: 97%;
   height: 60%;
   padding: 30px;
   margin: 20px;
@@ -94,7 +93,7 @@ div.history {
 
 #grad1 {
   background-image: linear-gradient(navy, maroon);
-  width: 100%;
+  width: 98%;
   height: 100%;
 }
 
@@ -123,12 +122,21 @@ p.news {
 }
 
 div.about {
-  border: 10px solid navy;
+  border: 10px solid gold;
   color: gold;
-  width: 85%;
+  width: 96%;
   height: 60%;
   padding: 10px;
   margin: 20px;
   align-items: center;
   float: left;
+}
+div.seniors {
+  border: 10px solid gold;
+  color: gold;
+  padding: 10px;
+  margin: 20px;
+  align-items: center;
+  width: auto;
+  height: auto;
 }
