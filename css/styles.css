@@ -118,7 +118,8 @@ p {
 
 p.news {
   color: gold;
-  font-size: 40px;
+  font-size: 80px;
+  text-decoration: underline;
 }
 
 div.about {
@@ -137,6 +138,21 @@ div.seniors {
   padding: 10px;
   margin: 20px;
   align-items: center;
-  width: auto;
+  width: 100%;
   height: auto;
+}
+dd {
+  color: gold;
+}
+h2.ourhistory {
+  text-decoration: underline;
+}
+h2.mustangachievements {
+    text-decoration: underline;
+}
+h2.seasongoals {
+    text-decoration: underline;
+}
+dd.headline {
+  text-decoration: underline;
 }
