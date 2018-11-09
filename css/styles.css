@@ -137,9 +137,8 @@ div.seniors {
   color: gold;
   padding: 10px;
   margin: 20px;
-  align-items: center;
   width: 100%;
-  height: auto;
+  height: 80%
 }
 dd {
   color: gold;
@@ -155,4 +154,8 @@ h2.seasongoals {
 }
 dd.headline {
   text-decoration: underline;
+}
+div.top {
+  border: 10px solid gold;
+colo
 }
