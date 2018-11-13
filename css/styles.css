@@ -79,8 +79,6 @@ body {
   background-size: cover;
 }
 
-
-
 div.history {
   color: gold;
   border: 10px solid gold;
@@ -132,30 +130,63 @@ div.about {
   align-items: center;
   float: left;
 }
+
 div.seniors {
   border: 10px solid gold;
   color: gold;
   padding: 10px;
   margin: 20px;
   width: 100%;
-  height: 80%
+  height: 80%;
+  align-items: center;
 }
+
 dd {
   color: gold;
 }
+
 h2.ourhistory {
   text-decoration: underline;
 }
+
 h2.mustangachievements {
-    text-decoration: underline;
+  text-decoration: underline;
 }
+
 h2.seasongoals {
-    text-decoration: underline;
+  text-decoration: underline;
 }
+
 dd.headline {
   text-decoration: underline;
 }
+
 div.top {
   border: 10px solid gold;
-colo
+}
+.mySlides {
+  top: 200px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: .95
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .95
+  }
+
+  to {
+    opacity: 1
+  }
 }
