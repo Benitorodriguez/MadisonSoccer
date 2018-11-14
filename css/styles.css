@@ -140,7 +140,14 @@ div.seniors {
   height: 80%;
   align-items: center;
 }
-
+dd.seniorheadline {
+  font-size: 55px;
+  text-decoration: underline;
+}
+dd.seniorname {
+  font-size: 30px;
+  text-decoration: underline;
+}
 dd {
   color: gold;
 }
