@@ -254,3 +254,32 @@ dd.headline2 {
 p.about {
   color: white;
 }
+.navbar {
+    overflow: hidden;
+    background-color: maroon;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 5; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    font-size: 25px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: gold;
+    text-align: center;
+    padding: 25px 121px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: navy;
+    color: gold;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
