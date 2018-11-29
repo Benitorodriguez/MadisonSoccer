@@ -115,9 +115,8 @@ p {
 }
 
 p.news {
-  color: gold;
-  font-size: 80px;
-  text-decoration: underline;
+  color: white;
+  font-size: 25px;
 }
 
 div.about {
@@ -144,15 +143,17 @@ div.seniors {
 dd.seniorheadline {
   font-size: 55px;
   text-decoration: underline;
-}
+  color:
+gold;}
 
 dd.seniorname {
   font-size: 30px;
   text-decoration: underline;
+  color: gold;
 }
 
 dd {
-  color: gold;
+  color: white;
 }
 
 h2.ourhistory {
@@ -169,6 +170,8 @@ h2.seasongoals {
 
 dd.headline {
   text-decoration: underline;
+  font-size: 40px;
+  color: gold;
 }
 
 .top {
@@ -217,9 +220,16 @@ div.instagram {
   margin: 5px;
   display: inline;
 }
+
 .fut {
   float: left;
 }
+
 @media screen (min-width 600px) {
+
+}
+p.newsheadline {
+  font-size: 100px;
+  color: gold;
 
 }
