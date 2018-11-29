@@ -132,7 +132,7 @@ div.about {
 
 div.seniors {
   border: 10px solid gold;
-  color: gold;
+
   padding: 10px;
   margin: 20px;
   width: 100%;
@@ -143,8 +143,9 @@ div.seniors {
 dd.seniorheadline {
   font-size: 55px;
   text-decoration: underline;
-  color:
-gold;}
+  color:gold;
+  font-style: italic;
+}
 
 dd.seniorname {
   font-size: 30px;
@@ -232,4 +233,24 @@ p.newsheadline {
   font-size: 100px;
   color: gold;
 
+}
+p.statement {
+  color: white;
+}
+dd.social {
+  font-size: 55px;
+}
+h2.h2news {
+  font-size: 100px;
+  color: gold;
+  font-style: italic;
+  text-decoration: underline;
+}
+dd.headline2 {
+  color: gold;
+  font-size: 30px;
+  text-decoration: underline;
+}
+p.about {
+  color: white;
 }
