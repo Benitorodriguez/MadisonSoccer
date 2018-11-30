@@ -252,4 +252,4 @@ p.about {
   color: white;
 }
 
-@media screen and (min-width:)
+@media screen and (min-width: 767) and (max-width: 1023)
