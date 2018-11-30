@@ -269,7 +269,7 @@ p.about {
     display: block;
     color: gold;
     text-align: center;
-    padding: 20px 90px;
+    padding: 20px 121px;
     text-decoration: none;
 }
 
@@ -283,3 +283,4 @@ p.about {
 .main {
     margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
+@media screen and ()
