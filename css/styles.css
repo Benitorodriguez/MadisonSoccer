@@ -223,9 +223,6 @@ div.instagram {
   float: left;
 }
 
-@media screen (min-width 600px) {
-
-}
 p.newsheadline {
   font-size: 100px;
   color: gold;
@@ -252,4 +249,255 @@ p.about {
   color: white;
 }
 
-@media screen and (min-width: 767) and (max-width: 1023)
+@media screen and (min-width: 767) and (max-width: 1023) {
+  h1 {
+    background-color: maroon;
+    text-align: center;
+    color: gold;
+    font-size: 60px;
+    font-style: italic;
+    width: 100%;
+    padding: 15px;
+  }
+
+  button {
+    background-color: Maroon;
+    color: white;
+    border: none;
+    font-size: 25px;
+    padding: 18px;
+    margin: none;
+    display: inline;
+    text-align: center;
+    float: left;
+    width: 100px;
+  }
+
+  .tab button:hover {
+    background-color: Navy;
+  }
+
+  a:link {
+    color: gold;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: gold;
+  }
+
+  .w3-button {
+    color: gold;
+    width: 50%;
+    height: 70px;
+  }
+
+  .w3-button:hover {
+    background-color: Navy;
+  }
+
+  div {
+    text-align: center;
+  }
+
+  div.achievements {
+    color: gold;
+    width: 320px;
+    padding: 10px;
+    border: 10px solid blue;
+    margin: auto;
+    align-items: center;
+    float: middle;
+  }
+
+  h2, h3, h4 {
+    font-size: 70px;
+  }
+
+  ul {
+    font-size: 20px;
+  }
+
+  dl {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  div.history {
+    color: gold;
+    border: 10px solid gold;
+    width: 97%;
+    height: 60%;
+    padding: 30px;
+    margin: 20px;
+    align-items: center;
+  }
+
+  #grad1 {
+    background-image: linear-gradient(navy, maroon);
+    width: 98%;
+    height: 100%;
+  }
+
+  .logo {
+    width: 7%;
+  }
+
+  h2, h3, h4 {
+    color: gold;
+    font-style: italic;
+    font-size: 100px
+  }
+
+  ul {
+    color: gold;
+    font-size: 40px;
+    list-style-type: none;
+  }
+
+  p {
+    color: gold;
+  }
+
+  p.news {
+    color: white;
+    font-size: 25px;
+  }
+
+  div.about {
+    border: 10px solid gold;
+    color: gold;
+    width: 96%;
+    height: 60%;
+    padding: 10px;
+    margin: 20px;
+    align-items: center;
+    float: left;
+  }
+
+  div.seniors {
+    border: 10px solid gold;
+
+    padding: 10px;
+    margin: 20px;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+  }
+
+  dd.seniorheadline {
+    font-size: 55px;
+    text-decoration: underline;
+    color:gold;
+    font-style: italic;
+  }
+
+  dd.seniorname {
+    font-size: 30px;
+    text-decoration: underline;
+    color: gold;
+  }
+
+  dd {
+    color: white;
+  }
+
+  h2.ourhistory {
+    text-decoration: underline;
+  }
+
+  h2.mustangachievements {
+    text-decoration: underline;
+  }
+
+  h2.seasongoals {
+    text-decoration: underline;
+  }
+
+  dd.headline {
+    text-decoration: underline;
+    font-size: 40px;
+    color: gold;
+  }
+
+  .mySlides {
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  @-webkit-keyframes fade {
+    from {
+      opacity: .95
+    }
+
+    to {
+      opacity: 1
+    }
+  }
+
+  @keyframes fade {
+    from {
+      opacity: .95
+    }
+
+    to {
+      opacity: 1
+    }
+  }
+
+  div.facebook {
+    margin: 5px;
+    display: inline;
+  }
+
+  div.twitter {
+    margin: 5px;
+    display: inline;
+  }
+
+  div.instagram {
+    margin: 5px;
+    display: inline;
+  }
+
+  .fut {
+    float: left;
+  }
+
+  p.newsheadline {
+    font-size: 100px;
+    color: gold;
+
+  }
+  p.statement {
+    color: white;
+  }
+  dd.social {
+    font-size: 55px;
+  }
+  h2.h2news {
+    font-size: 100px;
+    color: gold;
+    font-style: italic;
+    text-decoration: underline;
+  }
+  dd.headline2 {
+    color: gold;
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  p.about {
+    color: white;
+  }
+}
