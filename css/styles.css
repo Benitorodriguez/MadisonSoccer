@@ -175,7 +175,7 @@ dd.headline {
   color: gold;
 }
 
-.mySlides {
+.picture {
   top: 200px;
   bottom: 0;
   left: 0;
@@ -396,7 +396,7 @@ p.about {
   }
 
   h2.h2news {
-    object-fit: contain;
+    object-fit: scale-down;
   }
 
   dd.seniorheadline {
@@ -435,7 +435,7 @@ p.about {
     color: gold;
   }
 
-  .mySlides {
+  .picture {
     top: 200px;
     bottom: 0;
     left: 0;
@@ -691,7 +691,7 @@ p.about {
     color: gold;
   }
 
-  .mySlides {
+  .picture {
     top: 200px;
     bottom: 0;
     left: 0;

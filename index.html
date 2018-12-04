@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 <html lang="en">
 
 <head>
@@ -22,38 +21,38 @@
 
 </head>
 
-<body>
+
 
   <body id="grad1">
     <h1><img class="logo" src="./images/IMG_1976.PNG">MADISON ACADEMIC SOCCER<img class="logo" src="./images/IMG_1976.PNG"></h1>
     <div class="tab">
       <nav>
-        <button class="tablinks" onmouseover="index.html" style="width:16.7%"><a href="index.html">Home</a></button>
-        <button class="tablinks" onmouseover="about.html" style="width:16.7%"><a href="about.html">About</a></button>
-        <button class="tablinks" onmouseover="news.html" style="width:16.7%"><a href="news.html">News</a></button>
-        <button class="tablinks" onmouseover="gallery.html" style="width:16.7%"><a href="gallery.html">Gallery</a></button>
-        <button class="tablinks" onmouseover="roster.html" style="width:16.6%"><a href="roster.html">Roster</a></button>
-        <button class="tablinks" onmouseover="calendar.html" style="width:16.6%"><a href="calendar.html">Calendar</a></button>
+        <button class="links" onmouseover="index.html" style="width:16.7%"><a href="index.html">Home</a></button>
+        <button class="links" onmouseover="about.html" style="width:16.7%"><a href="about.html">About</a></button>
+        <button class="links" onmouseover="news.html" style="width:16.7%"><a href="news.html">News</a></button>
+        <button class="links" onmouseover="gallery.html" style="width:16.7%"><a href="gallery.html">Gallery</a></button>
+        <button class="links" onmouseover="roster.html" style="width:16.6%"><a href="roster.html">Roster</a></button>
+        <button class="links" onmouseover="calendar.html" style="width:16.6%"><a href="calendar.html">Calendar</a></button>
       </nav>
     </div>
-    <div class="EMcontent EMdisplay-container">
-      <img class="mySlides" src="./images/IMG_1221.png" style="width: 100%;">
-      <img class="mySlides" src="./images/IMG_1779.png" style="width: 100%;">
-      <img class="mySlides" src="./images/IMG_1775.png" style="width: 100%;">
-      <img class="mySlides" src="./images/IMG_1777.png" style="width: 100%;">
-      <img class="mySlides" src="./images/DPP_10001.png" style="width: 100%;">
-      <img class="mySlides" src="./images/IMG_1778.png" style="width: 100%;">
-      <img class="mySlides" src="./images/IMG_6849.png" style="width: 100%;">
-      <img class="mySlides" src="./images/DPP_10107.png" style="width: 100%;">
-      <img class="mySlides" src="./images/DPP_10083 (1).png" style="width: 100%;">
-      <img class="mySlides" src="./images/IMG_2118.png" style="width: 100%;">
-      <img class="mySlides" src="./images/IMG_6568.png" style="width: 100%;">
-      <img class="mySlides" src="./images/IMG_2284.png" style="width: 100%;">
+    <div class="slideshow">
+      <img class="picture" src="./images/IMG_1221.png" style="width: 100%;">
+      <img class="picture" src="./images/IMG_1779.png" style="width: 100%;">
+      <img class="picture" src="./images/IMG_1775.png" style="width: 100%;">
+      <img class="picture" src="./images/IMG_1777.png" style="width: 100%;">
+      <img class="picture" src="./images/DPP_10001.png" style="width: 100%;">
+      <img class="picture" src="./images/IMG_1778.png" style="width: 100%;">
+      <img class="picture" src="./images/IMG_6849.png" style="width: 100%;">
+      <img class="picture" src="./images/DPP_10107.png" style="width: 100%;">
+      <img class="picture" src="./images/DPP_10083 (1).png" style="width: 100%;">
+      <img class="picture" src="./images/IMG_2118.png" style="width: 100%;">
+      <img class="picture" src="./images/IMG_6568.png" style="width: 100%;">
+      <img class="picture" src="./images/IMG_2284.png" style="width: 100%;">
 
 
-      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="leftbutton" onclick="plusDivs(-1)">&#10094;</button>
 
-      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      <button class="rightbutton" onclick="plusDivs(1)">&#10095;</button>
       <div class="top">
         <dd class="social">Follow Our Social Media</dd>
         <a href="https://m.facebook.com/OfficialMAHSSoccer/">
@@ -148,7 +147,7 @@
 
         function showSlides() {
           var i;
-          var slides = document.getElementsByClassName("mySlides");
+          var slides = document.getElementsByClassName("picture");
           for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
           }
@@ -168,7 +167,7 @@
 
         function showDivs(n) {
           var i;
-          var x = document.getElementsByClassName("mySlides");
+          var x = document.getElementsByClassName("picture");
           if (n > x.length) {
             slideIndex = 1
           }
@@ -181,3 +180,5 @@
           x[slideIndex - 1].style.display = "block";
         }
       </script>
+    </body>
+    </html>

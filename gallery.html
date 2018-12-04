@@ -27,33 +27,53 @@
 
   <div class="tab">
     <nav>
-      <button class="tablinks" onmouseover="index.html" style="width:16.7%"><a href="index.html">Home</a></button>
-      <button class="tablinks" onmouseover="about.html" style="width:16.7%"><a href="about.html">About</a></button>
-      <button class="tablinks" onmouseover="news.html" style="width:16.7%"><a href="news.html">News</a></button>
-      <button class="tablinks" onmouseover="gallery.html" style="width:16.7%"><a href="gallery.html">Gallery</a></button>
-      <button class="tablinks" onmouseover="roster.html" style="width:16.6%"><a href="roster.html">Roster</a></button>
-      <button class="tablinks" onmouseover="calendar.html" style="width:16.6%"><a href="calendar.html">Calendar</a></button>
+      <button class="links" onmouseover="index.html" style="width:16.7%"><a href="index.html">Home</a></button>
+      <button class="links" onmouseover="about.html" style="width:16.7%"><a href="about.html">About</a></button>
+      <button class="links" onmouseover="news.html" style="width:16.7%"><a href="news.html">News</a></button>
+      <button class="links" onmouseover="gallery.html" style="width:16.7%"><a href="gallery.html">Gallery</a></button>
+      <button class="links" onmouseover="roster.html" style="width:16.6%"><a href="roster.html">Roster</a></button>
+      <button class="links" onmouseover="calendar.html" style="width:16.6%"><a href="calendar.html">Calendar</a></button>
     </nav>
   </div>
 
-  <div class="EMcontent EMdisplay-container">
-    <img class="mySlides" src="./images/IMG_" style="width: 100%;">
-    <img class="mySlides" src="./images/IMG_." style="width: 100%;">
-    <img class="mySlides" src="./images/IMG_" style="width: 100%;">
-    <img class="mySlides" src="./images/IMG_" style="width: 100%;">
-    <img class="mySlides" src="./images/IMG_" style="width: 100%;">
-    <img class="mySlides" src="./images/IMG_" style="width: 100%;">
-    <img class="mySlides" src="./images/IMG_" style="width: 100%;">
-    <img class="mySlides" src="./images/IMG_" style="width: 100%;">
-    <img class="mySlides" src="./images/IMG_" style="width: 100%;">
-    <img class="mySlides" src="./images/IMG_" style="width: 100%;">
-    <img class="mySlides" src="./images/IMG_" style="width: 100%;">
-    <img class="mySlides" src="./images/IMG_" style="width: 100%;">
+  <div class="slideshow">
+    <img class="picture" src="./images/IMG_6849.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_6569.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_3544.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_2284.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_2121.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_2118.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1971.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1970.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1969.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1968.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1967.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1966.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1952.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1950.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1947.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1945.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1814.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1813.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1806.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1779.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1778" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1777.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1775.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1221.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1212.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1208.png" style="width: 100%;">
+    <img class="picture" src="./images/IMG_1201.png" style="width: 100%;">
+    <img class="picture" src="./images/DPP_10107.png" style="width: 100%;">
+    <img class="picture" src="./images/DPP_10083 (1).png" style="width: 100%;">
+    <img class="picture" src="./images/DPP_10001.png" style="width: 100%;">
 
 
 
-    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+
+    <button class="leftbutton" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="rightbutton" onclick="plusDivs(1)">&#10095;</button>
   </div>
 
   <script>
@@ -66,7 +86,7 @@
 
     function showDivs(n) {
       var i;
-      var x = document.getElementsByClassName("mySlides");
+      var x = document.getElementsByClassName("picture");
       if (n > x.length) {
         slideIndex = 1
       }
