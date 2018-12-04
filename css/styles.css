@@ -397,6 +397,7 @@ p.about {
     object-fit: contain;
   }
   div.seniors img {
+    object-fit: contain;
   }
 
   dd.seniorheadline {
@@ -767,4 +768,10 @@ p.about {
   p.about {
     color: white;
   }
+div.contact {
+  align-items: center;
+}
+p.info {
+  text-decoration: underline;
+  font-style: italic;
 }
