@@ -151,7 +151,6 @@ dd.seniorname {
   font-size: 30px;
   text-decoration: underline;
   color: gold;
-
 }
 
 dd {
@@ -394,9 +393,9 @@ p.about {
     width: 100%;
     height: 80%;
     align-items: center;
-    object-fit: contain;
   }
-  div.seniors img {
+
+  h2.h2news {
     object-fit: contain;
   }
 
@@ -768,10 +767,12 @@ p.about {
   p.about {
     color: white;
   }
-div.contact {
-  align-items: center;
-}
-p.info {
-  text-decoration: underline;
-  font-style: italic;
-}
+
+  div.contact {
+    align-items: center;
+  }
+
+  p.info {
+    text-decoration: underline;
+    font-style: italic;
+  }
