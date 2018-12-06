@@ -759,5 +759,5 @@ p.about {
 }
 .placeholder {
   margin: 4em;
-  display: hidden;
+  visibility: hidden;
 }
