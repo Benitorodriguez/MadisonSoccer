@@ -262,6 +262,11 @@ p.about {
   color: white;
 }
 
+.placeholder {
+  margin: 4em;
+  visibility: hidden;
+}
+
 @media screen and (min-width: 767) and (max-width: 1023) {
   h1 {
     background-color: maroon;
@@ -301,7 +306,7 @@ p.about {
 
   .leftbutton {
     color: gold;
-    width: 50%;
+    width: auto;
     height: 70px;
   }
 
@@ -311,7 +316,7 @@ p.about {
 
   .rightbutton {
     color: gold;
-    width: 50%;
+    width: auto;
     height: 70px;
   }
 
@@ -413,10 +418,6 @@ p.about {
     width: auto;
     height: auto;
     align-items: center;
-  }
-
-  h2.h2news {
-    object-fit: ;
   }
 
   dd.seniorheadline {
@@ -531,14 +532,27 @@ p.about {
   p.about {
     color: white;
   }
+
+  img.fixpic {
+    object-fit: fill;
+  }
+
+  img.fut {
+    object-fit: fill;
+  }
+
+  .placeholder {
+    margin: 4em;
+    visibility: hidden;
+  }
 }
 
-@media screen and (min-width: 374) and (max-width: 811) {
+@media only screen and (max-width: 812) {
   h1 {
-    background-color: maroon;
+    background-color: orange;
     text-align: center;
     color: gold;
-    font-size: 60px;
+    font-size: 19px;
     font-style: italic;
     width: auto;
     padding: 15px;
@@ -790,12 +804,9 @@ p.about {
   div.fix {
     float: right;
   }
+
   .placeholder {
     margin: 4em;
     visibility: hidden;
   }
-}
-.placeholder {
-  margin: 4em;
-  visibility: hidden;
 }
