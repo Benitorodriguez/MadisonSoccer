@@ -547,15 +547,15 @@ p.about {
   }
 }
 
-@media only screen and (max-width: 812) {
+@media screen and (max-width: 812) {
   h1 {
     background-color: orange;
     text-align: center;
     color: gold;
-    font-size: 19px;
+    font-size: 15px;
     font-style: italic;
     width: auto;
-    padding: 15px;
+    padding: 8px;
   }
 
   button {
