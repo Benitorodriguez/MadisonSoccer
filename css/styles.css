@@ -193,24 +193,6 @@ dd.headline {
   margin: auto;
 }
 
-@-webkit-keyframes fade {
-  from {
-    opacity: .95
-  }
-
-  to {
-    opacity: 1
-  }
-}
-
-@keyframes fade {
-  from {
-    opacity: .95
-  }
-
-  to {
-    opacity: 1
-  }
 }
 
 div.facebook {
@@ -267,546 +249,255 @@ p.about {
   visibility: hidden;
 }
 
-@media screen and (min-width: 767) and (max-width: 1023) {
-  h1 {
-    background-color: maroon;
-    text-align: center;
-    color: gold;
-    font-size: 60px;
-    font-style: italic;
-    width: auto;
-    padding: 15px;
-  }
+ @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+   h1 {
+     background-color: maroon;
+     text-align: center;
+     color: gold;
+     font-size: 45px;
+     font-style: italic;
+     width: 100%;
+     padding: 15px;
+   }
+   button {
+     background-color: Maroon;
+     color: white;
+     border: none;
+     font-size: 25px;
+     padding: 18px;
+     margin: none;
+     display: inline;
+     text-align: center;
+     float: left;
+     width: 100px;
+   }
+   .tab button:hover {
+     background-color: Navy;
+   }
 
-  button {
-    background-color: Maroon;
-    color: white;
-    border: none;
-    font-size: 25px;
-    padding: 18px;
-    margin: none;
-    display: inline;
-    text-align: center;
-    float: left;
-    width: 100px;
-  }
+   a:link {
+     color: gold;
+     text-decoration: none;
+   }
 
-  .tab button:hover {
-    background-color: Navy;
-  }
+   a:visited {
+     color: gold;
+   }
 
-  a:link {
-    color: gold;
-    text-decoration: none;
-  }
+   .leftbutton {
+     color: gold;
+     width: 50%;
+     height: 70px;
+   }
 
-  a:visited {
-    color: gold;
-  }
+   .leftbutton:hover {
+     background-color: Navy;
+   }
 
-  .leftbutton {
-    color: gold;
-    width: auto;
-    height: 70px;
-  }
+   .rightbutton {
+     color: gold;
+     width: 50%;
+     height: 70px;
+   }
 
-  .leftbutton:hover {
-    background-color: Navy;
-  }
+   .rightbutton:hover {
+     background-color: Navy;
+   }
+   div {
+     text-align: center;
+   }
 
-  .rightbutton {
-    color: gold;
-    width: auto;
-    height: 70px;
-  }
+   div.achievements {
+     color: gold;
+     width: 320px;
+     padding: 15px;
+     border: 10px solid blue;
+     margin: auto;
+     align-items: center;
+     float: middle;
+   }
 
-  .rightbutton:hover {
-    background-color: Navy;
-  }
 
-  div {
-    text-align: center;
-  }
 
-  div.achievements {
-    color: gold;
-    width: auto;
-    padding: 10px;
-    border: 10px solid blue;
-    margin: auto;
-    align-items: center;
-    float: middle;
-  }
+   ul {
+     font-size: 20px;
+   }
 
-  h2, h3, h4 {
-    font-size: 70px;
-  }
+   dl {
+     font-size: 30px;
+   }
 
-  ul {
-    font-size: 20px;
-  }
+   p {
+     font-size: 20px;
+   }
 
-  dl {
-    font-size: 30px;
-  }
+   body {
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
 
-  p {
-    font-size: 20px;
-  }
+   div.history {
+     color: gold;
+     border: 10px solid gold;
+     width: 97%;
+     height: 60%;
+     padding: 30px;
+     margin: 20px;
+     align-items: center;
+   }
 
-  body {
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+   #grad1 {
+     background-image: linear-gradient(navy, maroon);
+     width: 98%;
+     height: 100%;
+   }
 
-  div.history {
-    color: gold;
-    border: 10px solid gold;
-    width: auto;
-    height: auto;
-    padding: 30px;
-    margin: 20px;
-    align-items: center;
-  }
+   .logo {
+     width: 7%;
+   }
 
-  #grad1 {
-    background-image: linear-gradient(navy, maroon);
-    width: auto;
-    height: auto;
-  }
+   h2, h3, h4 {
+     color: gold;
+     font-style: italic;
+     font-size: 65px;
+   }
 
-  .logo {
-    width: auto;
-  }
+   ul {
+     color: gold;
+     font-size: 40px;
+     list-style-type: none;
+   }
 
-  h2, h3, h4 {
-    color: gold;
-    font-style: italic;
-    font-size: 100px;
-  }
+   p {
+     color: gold;
+   }
 
-  ul {
-    color: gold;
-    font-size: 40px;
-    list-style-type: none;
-  }
+   p.news {
+     color: white;
+     font-size: 30px;
+   }
 
-  p {
-    color: gold;
-  }
+   div.about {
+     border: 10px solid gold;
+     color: gold;
+     width: 96%;
+     height: 60%;
+     padding: 10px;
+     margin: 20px;
+     align-items: center;
+     float: left;
+   }
 
-  p.news {
-    color: white;
-    font-size: 25px;
-  }
+   div.seniors {
+     border: 10px solid gold;
+     padding: 20px;
+     margin: 20px;
+     width: 90%;
+     height: 80%;
+     align-items: center;
+   }
 
-  div.about {
-    border: 10px solid gold;
-    color: gold;
-    width: auto;
-    height: auto;
-    padding: 10px;
-    margin: 20px;
-    align-items: center;
-    float: left;
-  }
+   dd.seniorheadline {
+     font-size: 80px;
+     text-decoration: underline;
+     color: gold;
+     font-style: italic;
+   }
 
-  div.seniors {
-    border: 10px solid gold;
-    padding: 10px;
-    margin: 20px;
-    width: auto;
-    height: auto;
-    align-items: center;
-  }
+   dd.seniorname {
+     font-size: 40px;
+     text-decoration: underline;
+     color: gold;
+   }
 
-  dd.seniorheadline {
-    font-size: 55px;
-    text-decoration: underline;
-    color: gold;
-    font-style: italic;
-  }
+   dd {
+     color: white;
+   }
 
-  dd.seniorname {
-    font-size: 30px;
-    text-decoration: underline;
-    color: gold;
-  }
+   h2.ourhistory {
+     text-decoration: underline;
+   }
 
-  dd {
-    color: white;
-  }
+   h2.mustangachievements {
+     text-decoration: underline;
+   }
 
-  h2.ourhistory {
-    text-decoration: underline;
-  }
+   h2.seasongoals {
+     text-decoration: underline;
+   }
 
-  h2.mustangachievements {
-    text-decoration: underline;
-  }
+   dd.headline {
+     text-decoration: underline;
+     font-size: 40px;
+     color: gold;
+   }
 
-  h2.seasongoals {
-    text-decoration: underline;
-    width: auto;
-  }
+   .picture {
+     top: 200px;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     margin: auto;
+   }
 
-  dd.headline {
-    text-decoration: underline;
-    font-size: 40px;
-    color: gold;
-  }
+   }
 
-  .picture {
-    top: 200px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
+   div.facebook {
+     margin: 5px;
+     display: inline;
+   }
 
-  @-webkit-keyframes fade {
-    from {
-      opacity: .95
-    }
+   div.twitter {
+     margin: 5px;
+     display: inline;
+   }
 
-    to {
-      opacity: 1
-    }
-  }
+   div.instagram {
+     margin: 5px;
+     display: inline;
+   }
 
-  @keyframes fade {
-    from {
-      opacity: .95
-    }
+   .fut {
+     float: left;
+   }
 
-    to {
-      opacity: 1
-    }
-  }
+   p.newsheadline {
+     font-size: 100px;
+     color: gold;
+   }
 
-  div.facebook {
-    margin: 5px;
-    display: inline;
-  }
+   p.statement {
+     color: white;
+     font-size: 30px;
+   }
 
-  div.twitter {
-    margin: 5px;
-    display: inline;
-  }
+   dd.social {
+     font-size: 55px;
+   }
 
-  div.instagram {
-    margin: 5px;
-    display: inline;
-  }
+   h2.h2news {
+     font-size: 100px;
+     color: gold;
+     font-style: italic;
+     text-decoration: underline;
+   }
 
-  .fut {
-    float: left;
-  }
+   dd.headline2 {
+     color: gold;
+     font-size: 40px;
+     text-decoration: underline;
+   }
 
-  p.newsheadline {
-    font-size: 100px;
-    color: gold;
-  }
+   p.about {
+     color: white;
+     font-size: 30px;
+   }
 
-  p.statement {
-    color: white;
-  }
-
-  dd.social {
-    font-size: 55px;
-  }
-
-  h2.h2news {
-    font-size: 100px;
-    color: gold;
-    font-style: italic;
-    text-decoration: underline;
-  }
-
-  dd.headline2 {
-    color: gold;
-    font-size: 30px;
-    text-decoration: underline;
-  }
-
-  p.about {
-    color: white;
-  }
-
+   .placeholder {
+     margin: 4em;
+     visibility: hidden;
+   }
   img.fixpic {
-    object-fit: fill;
+    width: 20%;
   }
-
-  img.fut {
-    object-fit: fill;
-  }
-
-  .placeholder {
-    margin: 4em;
-    visibility: hidden;
-  }
-}
-
-@media screen and (max-width: 812) {
-  h1 {
-    background-color: orange;
-    text-align: center;
-    color: gold;
-    font-size: 15px;
-    font-style: italic;
-    width: auto;
-    padding: 8px;
-  }
-
-  button {
-    background-color: Maroon;
-    color: white;
-    border: none;
-    font-size: 25px;
-    padding: 18px;
-    margin: none;
-    display: inline;
-    text-align: center;
-    float: left;
-    width: auto;
-  }
-
-  .tab button:hover {
-    background-color: Navy;
-  }
-
-  a:link {
-    color: gold;
-    text-decoration: none;
-  }
-
-  a:visited {
-    color: gold;
-  }
-
-  div {
-    text-align: center;
-  }
-
-  div.achievements {
-    color: gold;
-    width: auto;
-    padding: 10px;
-    border: 10px solid blue;
-    margin: auto;
-    align-items: center;
-    float: middle;
-  }
-
-  h2, h3, h4 {
-    font-size: 70px;
-  }
-
-  ul {
-    font-size: 20px;
-  }
-
-  dl {
-    font-size: 30px;
-  }
-
-  p {
-    font-size: 20px;
-  }
-
-  body {
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  div.history {
-    color: gold;
-    border: 10px solid gold;
-    width: auto;
-    height: auto;
-    padding: 30px;
-    margin: 20px;
-    align-items: center;
-  }
-
-  #grad1 {
-    background-image: linear-gradient(navy, maroon);
-    width: auto;
-    height: auto;
-  }
-
-  .logo {
-    width: auto;
-  }
-
-  h2, h3, h4 {
-    color: gold;
-    font-style: italic;
-    font-size: 100px;
-  }
-
-  ul {
-    color: gold;
-    font-size: 40px;
-    list-style-type: none;
-  }
-
-  p {
-    color: gold;
-  }
-
-  p.news {
-    color: white;
-    font-size: 25px;
-  }
-
-  div.about {
-    border: 10px solid gold;
-    color: gold;
-    width: auto;
-    height: auto;
-    padding: 10px;
-    margin: 20px;
-    align-items: center;
-    float: left;
-  }
-
-  div.seniors {
-    border: 10px solid gold;
-    padding: 10px;
-    margin: 20px;
-    width: auto;
-    height: auto;
-    align-items: center;
-  }
-
-  dd.seniorheadline {
-    font-size: 55px;
-    text-decoration: underline;
-    color: gold;
-    font-style: italic;
-  }
-
-  dd.seniorname {
-    font-size: 30px;
-    text-decoration: underline;
-    color: gold;
-  }
-
-  dd {
-    color: white;
-  }
-
-  h2.ourhistory {
-    text-decoration: underline;
-  }
-
-  h2.mustangachievements {
-    text-decoration: underline;
-  }
-
-  h2.seasongoals {
-    text-decoration: underline;
-  }
-
-  dd.headline {
-    text-decoration: underline;
-    font-size: 40px;
-    color: gold;
-  }
-
-  .picture {
-    top: 200px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-
-  @-webkit-keyframes fade {
-    from {
-      opacity: .95
-    }
-
-    to {
-      opacity: 1
-    }
-  }
-
-  @keyframes fade {
-    from {
-      opacity: .95
-    }
-
-    to {
-      opacity: 1
-    }
-  }
-
-  div.facebook {
-    margin: 5px;
-    display: inline;
-  }
-
-  div.twitter {
-    margin: 5px;
-    display: inline;
-  }
-
-  div.instagram {
-    margin: 5px;
-    display: inline;
-  }
-
-  .fut {
-    float: left;
-  }
-
-  p.newsheadline {
-    font-size: 100px;
-    color: gold;
-  }
-
-  p.statement {
-    color: white;
-  }
-
-  dd.social {
-    font-size: 55px;
-  }
-
-  h2.h2news {
-    font-size: 100px;
-    color: gold;
-    font-style: italic;
-    text-decoration: underline;
-  }
-
-  dd.headline2 {
-    color: gold;
-    font-size: 30px;
-    text-decoration: underline;
-  }
-
-  p.about {
-    color: white;
-  }
-
-  div.contact {
-    align-items: center;
-  }
-
-  p.info {
-    text-decoration: underline;
-    font-style: italic;
-  }
-
-  div.fix {
-    float: right;
-  }
-
-  .placeholder {
-    margin: 4em;
-    visibility: hidden;
-  }
-}
+ }
