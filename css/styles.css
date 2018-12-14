@@ -756,256 +756,256 @@ p.about {
     width: 20%;
    }
 }
-@media only screen   and (min-device-width: 375px)   and (max-device-width: 812px) and (orientation: portrait) {
-}
- h1 {
-   background-color: maroon;
-   text-align: center;
-   color: gold;
-   font-size: 19px;
-   font-style: italic;
-   width: 360px;
-   padding: 15px;
- }
- button {
-   background-color: Maroon;
-   color: white;
-   border: none;
-   font-size: 10px;
-   padding: 18px;
-   margin: none;
-   display: inline;
-   text-align: center;
-   float: left;
-   width: 16.7%;
- }
- .tab button:hover {
-   background-color: Navy;
- }
+/* iPhone XS Max, XR*/
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+  h1 {
+    background-color: maroon;
+    text-align: center;
+    color: gold;
+    font-size: 50px;
+    font-style: italic;
+    width: 100%;
+    padding: 15px;
+  }
+  button {
+    background-color: Maroon;
+    color: white;
+    border: none;
+    font-size: 25px;
+    padding: 18px;
+    margin: none;
+    display: inline;
+    text-align: center;
+    float: left;
+    width: 100px;
+  }
+  .tab button:hover {
+    background-color: Navy;
+  }
 
- a:link {
-   color: gold;
-   text-decoration: none;
- }
+  a:link {
+    color: gold;
+    text-decoration: none;
+  }
 
- a:visited {
-   color: gold;
- }
+  a:visited {
+    color: gold;
+  }
 
- .leftbutton {
-   color: gold;
-   width: 49%;
-   height: 50px;
- }
+  .leftbutton {
+    color: gold;
+    width: 50%;
+    height: 70px;
+  }
 
- .leftbutton:hover {
-   background-color: Navy;
- }
+  .leftbutton:hover {
+    background-color: Navy;
+  }
 
- .rightbutton {
-   color: gold;
-   width: 49%;
-   height: 50px;
- }
+  .rightbutton {
+    color: gold;
+    width: 50%;
+    height: 70px;
+  }
 
- .rightbutton:hover {
-   background-color: Navy;
- }
- div {
-   text-align: center;
- }
+  .rightbutton:hover {
+    background-color: Navy;
+  }
+  div {
+    text-align: center;
+  }
 
- div.achievements {
-   color: gold;
-   width: 320px;
-   padding: 15px;
-   border: 10px solid blue;
-   margin: auto;
-   align-items: center;
-   float: middle;
- }
+  div.achievements {
+    color: gold;
+    width: 320px;
+    padding: 15px;
+    border: 10px solid blue;
+    margin: auto;
+    align-items: center;
+    float: middle;
+  }
 
 
 
- ul {
-   font-size: 20px;
- }
+  ul {
+    font-size: 20px;
+  }
 
- dl {
-   font-size: 30px;
- }
+  dl {
+    font-size: 30px;
+  }
 
- p {
-   font-size: 20px;
- }
+  p {
+    font-size: 20px;
+  }
 
- body {
-   background-repeat: no-repeat;
-   background-size: cover;
- }
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
- div.history {
-   color: gold;
-   border: 10px solid gold;
-   width: 97%;
-   height: 60%;
-   padding: 30px;
-   margin: 20px;
-   align-items: center;
- }
+  div.history {
+    color: gold;
+    border: 10px solid gold;
+    width: 97%;
+    height: 60%;
+    padding: 30px;
+    margin: 20px;
+    align-items: center;
+  }
 
- #grad1 {
-   background-image: linear-gradient(navy, maroon);
-   width: 90%;
-   height: 100%;
- }
+  #grad1 {
+    background-image: linear-gradient(navy, maroon);
+    width: 98%;
+    height: 100%;
+  }
 
- .logo {
-   width: 7%;
- }
+  .logo {
+    width: 7%;
+  }
 
- h2, h3, h4 {
-   color: gold;
-   font-style: italic;
-   font-size: 49px;
- }
+  h2, h3, h4 {
+    color: gold;
+    font-style: italic;
+    font-size: 65px;
+  }
 
- ul {
-   color: gold;
-   font-size: 40px;
-   list-style-type: none;
- }
+  ul {
+    color: gold;
+    font-size: 40px;
+    list-style-type: none;
+  }
 
- p {
-   color: gold;
- }
+  p {
+    color: gold;
+  }
 
- p.news {
-   color: white;
-   font-size: 30px;
- }
+  p.news {
+    color: white;
+    font-size: 30px;
+  }
 
- div.about {
-   border: 10px solid gold;
-   color: gold;
-   width: 96%;
-   height: 60%;
-   padding: 10px;
-   margin: 20px;
-   align-items: center;
-   float: left;
- }
+  div.about {
+    border: 10px solid gold;
+    color: gold;
+    width: 96%;
+    height: 60%;
+    padding: 10px;
+    margin: 20px;
+    align-items: center;
+    float: left;
+  }
 
- div.seniors {
-   border: 10px solid gold;
-   padding: 20px;
-   margin: 20px;
-   width: 90%;
-   height: 80%;
-   align-items: center;
- }
+  div.seniors {
+    border: 10px solid gold;
+    padding: 20px;
+    margin: 20px;
+    width: 90%;
+    height: 80%;
+    align-items: center;
+  }
 
- dd.seniorheadline {
-   font-size: 60px;
-   text-decoration: underline;
-   color: gold;
-   font-style: italic;
- }
+  dd.seniorheadline {
+    font-size: 80px;
+    text-decoration: underline;
+    color: gold;
+    font-style: italic;
+  }
 
- dd.seniorname {
-   font-size: 40px;
-   text-decoration: underline;
-   color: gold;
- }
+  dd.seniorname {
+    font-size: 40px;
+    text-decoration: underline;
+    color: gold;
+  }
 
- dd {
-   color: white;
- }
+  dd {
+    color: white;
+  }
 
- h2.ourhistory {
-   text-decoration: underline;
- }
+  h2.ourhistory {
+    text-decoration: underline;
+  }
 
- h2.mustangachievements {
-   text-decoration: underline;
- }
+  h2.mustangachievements {
+    text-decoration: underline;
+  }
 
- h2.seasongoals {
-   text-decoration: underline;
- }
+  h2.seasongoals {
+    text-decoration: underline;
+  }
 
- dd.headline {
-   text-decoration: underline;
-   font-size: 40px;
-   color: gold;
- }
+  dd.headline {
+    text-decoration: underline;
+    font-size: 40px;
+    color: gold;
+  }
 
- .picture {
-   top: 200px;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   margin: auto;
- }
+  .picture {
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
 
- }
+  }
 
- div.facebook {
-   margin: 5px;
-   display: inline;
- }
+  div.facebook {
+    margin: 5px;
+    display: inline;
+  }
 
- div.twitter {
-   margin: 5px;
-   display: inline;
- }
+  div.twitter {
+    margin: 5px;
+    display: inline;
+  }
 
- div.instagram {
-   margin: 5px;
-   display: inline;
- }
+  div.instagram {
+    margin: 5px;
+    display: inline;
+  }
 
- .fut {
-   float: none;
- }
+  .fut {
+    float: left;
+  }
 
- p.newsheadline {
-   font-size: 100px;
-   color: gold;
- }
+  p.newsheadline {
+    font-size: 100px;
+    color: gold;
+  }
 
- p.statement {
-   color: white;
-   font-size: 30px;
- }
+  p.statement {
+    color: white;
+    font-size: 30px;
+  }
 
- dd.social {
-   font-size: 55px;
- }
+  dd.social {
+    font-size: 55px;
+  }
 
- h2.h2news {
-   font-size: 100px;
-   color: gold;
-   font-style: italic;
-   text-decoration: underline;
- }
+  h2.h2news {
+    font-size: 100px;
+    color: gold;
+    font-style: italic;
+    text-decoration: underline;
+  }
 
- dd.headline2 {
-   color: gold;
-   font-size: 30px;
-   text-decoration: underline;
- }
+  dd.headline2 {
+    color: gold;
+    font-size: 40px;
+    text-decoration: underline;
+  }
 
- p.about {
-   color: white;
-   font-size: 30px;
- }
+  p.about {
+    color: white;
+    font-size: 30px;
+  }
 
- .placeholder {
-   margin: 4em;
-   visibility: hidden;
- }
- img.fixpic {
-  width: 20%;
- }
+  .placeholder {
+    margin: 4em;
+    visibility: hidden;
+  }
+  img.fixpic {
+   width: 20%;
+  }
 }
